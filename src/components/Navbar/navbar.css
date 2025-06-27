@@ -1,0 +1,56 @@
+img{
+    height: auto;
+    width: 60px;
+}
+
+.bg-primary-color{
+    background-color: #FFF;
+}
+
+.bg-secondary-color{
+   background-color: #ece8ea; 
+}
+
+.bg-dark-color{
+    background-color: #050505;
+}
+
+.primary-color {
+    color: #050505;
+}
+
+.secondary-color{
+    color: #7a7a7a;
+}
+
+#navbar{
+    border-bottom: 1px solid #7a7a7a;
+}
+
+#navbar a:hover{
+    color: #d9a86c88;
+}
+
+#navbar a.active{
+    border-bottom: 2px solid #D9A86C;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.navbar-brand span{
+    font-size: 20px;
+    
+}
+
+#navbar-items .navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar-items .nav-item{
+    margin: 0 1rem;
+}
+

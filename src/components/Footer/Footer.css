@@ -1,0 +1,22 @@
+footer li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white; /* cor azul bootstrap no hover */
+}
+
+footer{
+    background-color: #D9A86C;
+}
+
+img{
+  width: 30px;
+}
+
+.list-unstyled{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

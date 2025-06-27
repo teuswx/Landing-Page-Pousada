@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* ==========================
+   IMAGEM PRINCIPAL TOPO DA TELA
+========================== */
+
+#jumbotron {
+    text-shadow:
+        2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#jumbotron h1 {
+    color: #fff;
+    font-weight: 400;
+    font-family: 'PT Serif', serif;
+}
+
+#jumbotron p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+}
+
+.background-jumbotron {
+  position: relative;
+  background-image: url("../../assets/capa.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-jumbotron::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(83, 83, 83, 0.171); 
+  z-index: 1;
+}
+
+.background-jumbotron > .container {
+  position: relative;
+  z-index: 2; 
+}
+
+.btn-custom {
+  background-color: #D9A86C;  
+  color: #fff;                
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #eec07c;  
+  color: #fff;                
+}
+
+
+
+.custom {
+    padding-top: 270px;
+}
+
+@media(max-width: 1204px) {
+    .custom {
+        padding-top: 200px;
+    }
+}
+
+@media(max-width: 576px) {
+    .custom {
+        padding-top: 150px;
+    }
+}
+
+
+/* ==========================
+   Texto Info
+========================== */
+.texto-info{
+  font-family: 'PT Serif', serif;
+  margin: auto 0px;
+}
+.tag{
+   width: 9px;
+    height: 60px;
+    background-color:#D9A86C;
+    border-radius: 6px 0 0 6px;
+    margin-right: 16px;
+}
+

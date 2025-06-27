@@ -1,0 +1,18 @@
+.container-form{
+    background-color: #2a7a8c4f;
+    padding: 30px;
+    border-radius: 8px;
+    
+}
+.btn-custom {
+  background-color: #D9A86C;  
+  color: #fff;                
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #eec07c;  
+  color: #fff;                
+}
