@@ -123,7 +123,7 @@ function Contatos() {
                                         >
                                             <option value="">Selecione um assunto</option>
                                             <option value="suporte">Suporte</option>
-                                            <option value="vendas">Reserva</option>
+                                            <option value="Reserva">Reserva</option>
                                             <option value="informacoes">Informações</option>
                                             <option value="outro">Outro</option>
                                         </select>
