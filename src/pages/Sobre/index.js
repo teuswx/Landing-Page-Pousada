@@ -19,7 +19,7 @@ function Sobre() {
     }
   }, [location]);
 
-  
+
     return (
         <div className="container-fluid p-0">
             <ImageTitle
@@ -66,8 +66,8 @@ function Sobre() {
 
                         <ul className="info-list">
                             <li><strong>Data:</strong> 13/07/2025 (Domingo)</li>
-                            <li><strong>Horário de concentração e café da manhã:</strong> 6 horas</li>
-                            <li><strong>Horário de saída para caminhada:</strong> 7 horas</li>
+                            <li><strong>Horário de concentração e café da manhã:</strong> 6:00</li>
+                            <li><strong>Horário de saída:</strong> 7:00</li>
                             <li><strong>Local:</strong> Santo Hilário - MG</li>
                             <li><strong>Mais informações em:</strong>
                                 <a href="https://www.instagram.com/keepsportingbrasil?igsh=MTd6NTJnOGJ2bGpkZA==" target="_blank" rel="noopener noreferrer" className="instagram-link">

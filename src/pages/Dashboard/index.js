@@ -37,7 +37,7 @@ function Dashboard() {
         },
         {
             title: "Quarto com duas camas",
-            description: "Perfeito para amigos ou família, este quarto oferece duas camas de solteiro, garantindo conforto e praticidade. O ambiente aconchegante é ideal para momentos de descanso. Com Smart TV e Wi-Fi gratuito, você terá tudo o que precisa para uma estadia agradável.",
+            description: "Perfeito para amigos ou família, este quarto oferece uma cama de casal e uma de solteiro, garantindo conforto e praticidade. O ambiente aconchegante é ideal para momentos de descanso. Com Smart TV e Wi-Fi gratuito, você terá tudo o que precisa para uma estadia agradável.",
             images: [img4, img5, img6   ],
             order: { carousel: 2, text: 1 },
             icons: ["bi bi-people-fill", "bi bi-tv", "bi bi-wifi"],
