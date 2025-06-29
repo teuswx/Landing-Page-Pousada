@@ -125,7 +125,7 @@ function Contatos() {
                                         />
                                     </div>
                                 </div>
-                                <div className='col-12 col-lg-6'>
+                                <div className='col-6'>
                                     <div className="mb-3">
                                         <label htmlFor="dataInicio" className="form-label">Check-in</label>
                                         <input
@@ -140,7 +140,7 @@ function Contatos() {
                                     </div>
                                 </div>
 
-                                <div className='col-12 col-lg-6'>
+                                <div className='col-6'>
                                     <div className="mb-3">
                                         <label htmlFor="dataFim" className="form-label">Check-out</label>
                                         <input
