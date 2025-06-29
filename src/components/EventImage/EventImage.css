@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+#backgroundevent {
+    text-shadow: 2px 2px 4px (0, 0, 0, 0.7);
+}
+
+#backgroundevent h1 {
+    font-family: "Abril Fatface", serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 100px;
+}
+
+#backgroundevent .span-data {
+    font-family: "Abril Fatface", serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.background-backgroundevent {
+    position: relative;
+    background-image: url("../../assets/Eventos/trekking.jpg");
+    height: 600px;
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.background-backgroundevent::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(83, 83, 83, 0.171);
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.background-backgroundevent>.container {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+}
+
+.link-event {
+    text-decoration: none;
+    color: rgb(5, 17, 79);
+    font-size: 18px;
+    transition: all 0.3s ease;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.link-event:hover {
+    font-size: 20px;
+}
+
+.container-saibamais {
+    height: 30px;
+}
+
+@media(max-width: 768px) {
+    .background-backgroundevent {
+
+        height: 300px;
+
+    }
+
+    #backgroundevent h1 {
+        color: #fff;
+        font-weight: 0;
+        font-size: 32px;
+    }
+
+
+    #backgroundevent .span-data {
+        color: #fff;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    #backgroundevent span {
+        color: #fff;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+
+    .link-event {
+        text-decoration: none;
+        font-size: 10px;
+        transition: all 0.3s ease;
+    }
+
+    .link-event:hover {
+        font-size: 10px;
+    }
+
+    .container-saibamais {
+        height: 30px;
+    }
+}

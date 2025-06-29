@@ -1,0 +1,58 @@
+.view-history img {
+  max-width: 400px;  /* evita que a imagem ultrapasse a largura do container */
+  height: auto;     /* mantém proporção */
+}
+
+.info-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 15px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.info-header {
+  border-left: 5px solid #c49256; /* cor destaque */
+  padding-left: 10px;
+}
+
+
+.info-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+  color: #c49256;
+}
+
+.info-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.info-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.info-list li {
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+}
+
+.info-list strong {
+  color: #c49256;
+}
+
+.instagram-link img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-left: 5px;
+  transition: filter 0.3s ease;
+}
+
+.instagram-link img:hover {
+  filter: brightness(0.8);
+}

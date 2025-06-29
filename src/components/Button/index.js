@@ -1,3 +1,4 @@
+import './Button.css'
 import { Link } from 'react-router-dom';
 
 function Button({ name, rota }) {
@@ -10,12 +11,7 @@ function Button({ name, rota }) {
         <Link
             to={`/${rota}`}
             onClick={handleClick}  
-            className="btn btn-lg"
-            style={{
-                backgroundColor: "#eec07c",
-                width: "180px",
-                color: "white",
-            }}
+            className="btn btn-lg btn-all"
         >
             {name}
         </Link>

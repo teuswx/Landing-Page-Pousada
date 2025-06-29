@@ -15,12 +15,12 @@ function Footer() {
                         <p>Siga-nos nas redes sociais:</p>
                         <div className="d-flex gap-3 redes-sociais">
                             <a href='https://www.instagram.com/villacapetinga/' target='_blank' rel='noopener noreferrer'>
-                                <img src={instagram} alt="Instagram" />
+                                <img src={instagram} alt="Instagram"  />
                             </a>
                             <a href='/' target='_blank' rel='noopener noreferrer'>
                                 <img src={linkedin} alt="LinkedIn" />
                             </a>
-                            <a href='/' target='_blank' rel='noopener noreferrer'>
+                            <a href='https://wa.me/qr/37QVHI4237N7F1' target='_blank' rel='noopener noreferrer'>
                                 <img src={whatsapp} alt="WhatsApp" />
                             </a>
                         </div>
@@ -49,7 +49,7 @@ function Footer() {
                         <ul className="list-unstyled">
                             <li>
                                 <i className="bi bi-telephone-fill text-white"></i>
-                                <span className="ms-2">+55 37 9939-7022</span>
+                                <span className="ms-2">+55 37 9 9953-1130</span>
                             </li>
                             <li>
                                 <i className="bi bi-envelope-fill text-white"></i>

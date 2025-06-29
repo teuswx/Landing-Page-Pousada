@@ -9,7 +9,9 @@ function Contatos() {
         email: '',
         celular: '',
         telefone: '',
-        assunto: ''
+        assunto: '',
+        dataInicio: '',
+        dataFinal: ''
     })
 
     const handleInputChange = (e) => {
@@ -20,10 +22,23 @@ function Contatos() {
         }));
     };
 
+    const formatarData = (dataISO) => {
+        if (!dataISO) return '';
+        const [ano, mes, dia] = dataISO.split('-');
+        return `${dia}/${mes}/${ano}`;
+    };
+
     const handleSubmit = (e) => {
         e.preventDefault();
-        sendEmail(formData);
-    };
+
+        const formDataFormatado = {
+            ...formData,
+            dataInicio: formatarData(formData.dataInicio),
+            dataFinal: formatarData(formData.dataFinal),
+        };
+
+        sendEmail(formDataFormatado);
+    }
 
     const sendEmail = (formData) => {
 
@@ -41,7 +56,7 @@ function Contatos() {
     return (
         <div className="container my-5">
             <div className="row">
-                <div className="col-12 col-lg-6 order-2 order-lg-1"><Maps /></div>
+                <div className="col-12 col-lg-6 order-2 order-lg-1 mt-auto"><Maps /></div>
 
                 <div className="col-12 col-lg-6 order-1 order-lg-2 mb-5 mb-lg-0 d-flex justify-content-center align-items-center d-flex flex-column">
                     <h3>Preencha o Formulário</h3>
@@ -106,6 +121,36 @@ function Contatos() {
                                             value={formData.telefone}
                                             onChange={handleInputChange}
                                             placeholder="Digite seu telefone"
+                                            required
+                                        />
+                                    </div>
+                                </div>
+                                <div className='col-12 col-lg-6'>
+                                    <div className="mb-3">
+                                        <label htmlFor="dataInicio" className="form-label">Check-in</label>
+                                        <input
+                                            type="date"
+                                            className="form-control"
+                                            id="dataInicio"
+                                            name="dataInicio"
+                                            value={formData.dataInicio}
+                                            onChange={handleInputChange}
+                                            required
+                                        />
+                                    </div>
+                                </div>
+
+                                <div className='col-12 col-lg-6'>
+                                    <div className="mb-3">
+                                        <label htmlFor="dataFim" className="form-label">Check-out</label>
+                                        <input
+                                            type="date"
+                                            className="form-control"
+                                            id="dataFim"
+                                            name="dataFinal"
+                                            value={formData.dataFinal}
+                                            onChange={handleInputChange}
+                                            min={formData.dataInicio}
                                             required
                                         />
                                     </div>

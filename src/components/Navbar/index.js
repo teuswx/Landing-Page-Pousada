@@ -9,7 +9,7 @@ function Navbar() {
           to="/"
           className={() => "navbar-brand primary-color"}
         >
-          <img src="/logo.png" alt="Logo Villa Capetinga" className='me-3'/>
+          <img src="/logo.png" alt="Logo Villa Capetinga" className='me-3' id="logo"/>
           <span>Villa Capetinga</span>
         </NavLink>
 

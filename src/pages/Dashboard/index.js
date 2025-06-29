@@ -1,10 +1,20 @@
 import './Dashboard.css'
 import CardInfo from '../../components/CardInfo';
+
+//Quarto 1
 import img1 from '../../assets/quartocerra/cama.jpg';
 import img2 from '../../assets/quartocerra/umacama.jpg';
 import img3 from '../../assets/quartocerra/vidrobanheiro.jpg';
+
+//Quarto 3
+import img4 from '../../assets/quartoDuasCamas/duascamas.jpg'
+import img5 from '../../assets/quartoDuasCamas/duascamas1.jpg'
+import img6 from '../../assets/quartoDuasCamas/banheiro.jpg'
+
 import Maps from '../../components/Maps';
-import {Link} from 'react-router-dom'
+import ImageTitle from '../../components/ImageTitle';
+import EventImage from '../../components/EventImage';
+
 
 function Dashboard() {
 
@@ -28,7 +38,7 @@ function Dashboard() {
         {
             title: "Quarto com duas camas",
             description: "Perfeito para amigos ou família, este quarto oferece duas camas de solteiro, garantindo conforto e praticidade. O ambiente aconchegante é ideal para momentos de descanso. Com Smart TV e Wi-Fi gratuito, você terá tudo o que precisa para uma estadia agradável.",
-            images: [img1, img2, img3],
+            images: [img4, img5, img6   ],
             order: { carousel: 2, text: 1 },
             icons: ["bi bi-people-fill", "bi bi-tv", "bi bi-wifi"],
             textIcons: ["2 Camas", "Smart TV", "Wifi Gratuito"]
@@ -37,17 +47,16 @@ function Dashboard() {
 
     return (
         <div className="container-fluid px-0">
-            <section id="jumbotron" className="jumbotron-fluid background-jumbotron teste">
-                <div className="container text-center custom">
-                    <h1 className="display-3">Pousada e Restaurante Villa Capetinga</h1>
-                    <p>A Villa Capetinga é uma pousada charmosa em Santo Hilário, Minas Gerais,
-                        ideal para casais que buscam tranquilidade na natureza</p>
-                    <Link to={'/Contatos'} className="btn btn-lg btn-custom" type="button">
-                        Entre em Contato
-                    </Link>
-                </div>
-            </section>
+            
+            <ImageTitle
+                titulo = "Pousada e Restaurante Villa Capetinga"
+                paragrafo="A Villa Capetinga é uma pousada charmosa em Santo Hilário, Minas Gerais,
+                        ideal para pessoas que buscam tranquilidade na natureza"
+            />
 
+            <div className='mt-5 p-4 p-lg-5'>
+                <EventImage/>
+            </div>
             
             <div className='container my-5'>
                 <div className='container-fluid d-flex align-items-center'>
