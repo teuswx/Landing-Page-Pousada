@@ -1,5 +1,5 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow: /sobre
-Disallow: /contatos
+Disallow:
 
+Sitemap: https://www.villacapetinga.com.br/sitemap.xml
