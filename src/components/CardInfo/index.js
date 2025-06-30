@@ -66,7 +66,7 @@ function CardInfo({ title, description, images, order, id, icons, textIcons }) {
             </div>
             <div className="row mt-2 mt-lg-auto">
               <div className="col-12 d-flex justify-content-center align-items-center justify-content-lg-start">
-                <Button name="saiba mais" rota="Contatos"/>
+                <Button name="saiba mais" rota="contatos"/>
               </div>
             </div>
 

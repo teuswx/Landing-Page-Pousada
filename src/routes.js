@@ -12,8 +12,8 @@ function RoutesApp() {
             <Navbar />
             <Routes>
                 <Route path='/' element={<Dashboard />} />
-                <Route path='/Sobre' element={<Sobre />} />
-                <Route path='/Contatos' element={<Contatos />} />
+                <Route path='/sobre' element={<Sobre />} />
+                <Route path='/contatos' element={<Contatos />} />
             </Routes>
             <Footer />
         </BrowserRouter>

@@ -8,7 +8,7 @@ function ImageTitle({titulo, paragrafo, disableButton}){
                     <h1 className="display-3">{titulo}</h1>
                     <p>{paragrafo}</p>
                     {!disableButton && (
-                        <Link to={'/Contatos'} className="btn btn-lg btn-custom" type="button">
+                        <Link to={'/contatos'} className="btn btn-lg btn-custom" type="button">
                             Entre em Contato
                         </Link>
                     )}

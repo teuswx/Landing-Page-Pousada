@@ -10,7 +10,7 @@ function EventImage() {
             <h1>TREKKING</h1>
             <span className='span-data'>13/07/2025</span>
             <div className='container-saibamais'>
-            <Link to="/Sobre#sobre-trekking" className="link-event">Saiba mais</Link>
+            <Link to="/sobre#sobre-trekking" className="link-event">Saiba mais</Link>
 
             </div>
             

@@ -46,7 +46,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/Contatos"
+                to="/contatos"
                 className={({ isActive }) => "nav-link primary-color" + (isActive ? " active" : "")}
               >
                 Contatos

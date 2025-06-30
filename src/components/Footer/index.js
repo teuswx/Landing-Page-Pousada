@@ -30,8 +30,8 @@ function Footer() {
                         <h3>Link</h3>
                         <ul className="list-unstyled">
                             <li><NavLink to="/" end className="nav-link">Home</NavLink></li>
-                            <li><NavLink to="/Sobre" className="nav-link">Sobre</NavLink></li>
-                            <li><NavLink to="/Contatos" className="nav-link">Contatos</NavLink></li>
+                            <li><NavLink to="/sobre" className="nav-link">Sobre</NavLink></li>
+                            <li><NavLink to="/contatos" className="nav-link">Contatos</NavLink></li>
                         </ul>
                     </div>
 
