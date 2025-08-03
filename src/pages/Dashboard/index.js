@@ -7,9 +7,9 @@ import img2 from '../../assets/quartocerra/umacama.jpg';
 import img3 from '../../assets/quartocerra/vidrobanheiro.jpg';
 
 //Quarto 3
-import img4 from '../../assets/quartoDuasCamas/duascamas.jpg'
-import img5 from '../../assets/quartoDuasCamas/duascamas1.jpg'
-import img6 from '../../assets/quartoDuasCamas/banheiro.jpg'
+import img4 from '../../assets/quartoDuasCamas/cama_sacada.jpg'
+import img5 from '../../assets/quartoDuasCamas/cama_sacada2.jpg'
+import img6 from '../../assets/quartoDuasCamas/cama_sacada3.jpg'
 
 import Maps from '../../components/Maps';
 import ImageTitle from '../../components/ImageTitle';
@@ -28,21 +28,22 @@ function Dashboard() {
             textIcons: ["Cama de Casal", "Smart TV", "Wifi Gratuito"]
         },
         {
-            title: "Quarto adaptado para cadeirantes",
-            description: "Este quarto foi projetado com acessibilidade total, proporcionando conforto e praticidade. Equipado com cama de casal, Smart TV e Wi-Fi gratuito, atende às necessidades de quem busca uma estadia tranquila. Ideal para quem precisa de um espaço adaptado e confortável.",
-            images: [img1, img2, img3],
-            order: { carousel: 1, text: 2 },
-            icons: ["bi bi-universal-access", "bi bi-tv", "bi bi-wifi"],
-            textIcons: ["Acessibilidade ", "Smart TV", "Wifi Gratuito"]
-        },
-        {
-            title: "Quarto com duas camas",
-            description: "Perfeito para amigos ou família, este quarto oferece uma cama de casal e uma de solteiro, garantindo conforto e praticidade. O ambiente aconchegante é ideal para momentos de descanso. Com Smart TV e Wi-Fi gratuito, você terá tudo o que precisa para uma estadia agradável.",
-            images: [img4, img5, img6   ],
-            order: { carousel: 2, text: 1 },
+            title: "Quarto de casal com vista",
+            description: "Perfeito para família, este quarto oferece uma cama de casal, garantindo conforto e praticidade. O ambiente aconchegante é ideal para momentos de descanso. Com Smart TV e Wi-Fi gratuito, você terá tudo o que precisa para uma estadia agradável.",
+            images: [img4, img5, img6 ],
+            order: { carousel: 1, text: 1 },
             icons: ["bi bi-people-fill", "bi bi-tv", "bi bi-wifi"],
             textIcons: ["2 Camas", "Smart TV", "Wifi Gratuito"]
+        },
+        {
+            title: "Quarto adaptado",
+            description: "Este quarto foi projetado com acessibilidade total, proporcionando conforto e praticidade. Equipado com cama de casal, Smart TV e Wi-Fi gratuito, atende às necessidades de quem busca uma estadia tranquila. Ideal para quem precisa de um espaço adaptado e confortável.",
+            images: [img1, img2, img3],
+            order: { carousel: 2, text: 1 },
+            icons: ["bi bi-universal-access", "bi bi-tv", "bi bi-wifi"],
+            textIcons: ["Acessibilidade ", "Smart TV", "Wifi Gratuito"]
         }
+        
     ]
 
     return (

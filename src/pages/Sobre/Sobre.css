@@ -56,3 +56,9 @@
 .instagram-link img:hover {
   filter: brightness(0.8);
 }
+
+@media (max-width: 992px) {
+  .view-history img {
+    max-width: 100%; /* Remove limite para ocupar a largura da coluna */
+  }
+}
